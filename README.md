@@ -4,25 +4,31 @@
 
 ## API
 
-Request URL
-```/-type-/-diff-/-special-```
+Request URL:
+```/(diff),(special)```
 
-### type
-- basic
-- demon
+Example:
+```/demon-easy,featured```
 
 ### diff
-- na (also can be empty value)
+- na (also can be an empty value)
 - easy
-- normal !-for basic type only
+- normal
 - hard
-- harder !-for basic type only
+- harder
 - insane
-- medium !-for demon type only
-- extreme !-for demon type only
+- demon-easy
+- demon-medium
+- demon-hard
+- demon-insane
+- demon-extreme
 
 ### special
 - featured
 - epic
-- null (empty value)
+- null (an empty value)
 
+### Important
+
+- demon-hard above has buggy image (not perfect)
+- this is project just for fun
