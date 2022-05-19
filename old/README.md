@@ -26,3 +26,7 @@ Request URL
 - epic
 - null (empty value)
 
+### README
+
+if you want to use that script (index.js), 
+move to back folder (../)
